@@ -2,6 +2,7 @@ pipeline {
     agent any 
     stages {
         stage('Checkout'){
+            echo "declarative pipe line from github"
             steps{
                 //
                 echo "checkout completed"
@@ -18,7 +19,7 @@ pipeline {
         }
         stage('Test') { 
             steps {
-            sh "Test completed"
+            echo "Test completed"
                 // 
             }
         }
