@@ -2,9 +2,9 @@ pipeline {
     agent any 
     stages {
         stage('Checkout'){
-            echo "declarative pipe line from github"
             steps{
                 //
+                echo "declarative pipe line from github"
                 echo "checkout completed"
             }
             
